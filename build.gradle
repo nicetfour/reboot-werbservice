@@ -13,8 +13,8 @@ buildscript {
 
 apply plugin: 'java'
 apply plugin: 'eclipse'
-apply plugin: 'org.springframework.boot' //org.springframework.boot
 apply plugin: 'io.spring.dependency-management'
+apply plugin: 'org.springframework.boot'
 
 group 'com.reboot.retry'
 version '1.0-SNAPSHOT'
