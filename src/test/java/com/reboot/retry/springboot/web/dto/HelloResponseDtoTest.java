@@ -13,7 +13,7 @@ public class HelloResponseDtoTest {
         int amount = 20;
 
         //when
-        HelloResponseDto dto = new HelloResponseDto(amount, name);
+        HelloResponseDto dto = new HelloResponseDto(name, amount);
 
         //then
         assertThat(dto.getAmount()).isEqualTo(amount);

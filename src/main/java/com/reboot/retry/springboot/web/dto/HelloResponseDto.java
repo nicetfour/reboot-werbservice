@@ -6,6 +6,6 @@ import lombok.RequiredArgsConstructor;
 @Getter
 @RequiredArgsConstructor
 public class HelloResponseDto {
-    private final int amount;
     private final String name;
+    private final int amount;
 }
